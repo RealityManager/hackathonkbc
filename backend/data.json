@@ -1,0 +1,135 @@
+{
+  "account": {
+    "id": "troupe-123",
+    "name": "Scout Troupe 123",
+    "iban": "BE68 5390 0754 7034",
+    "balance": 4280.5,
+    "chiefId": "bob",
+    "type": "associatif",
+    "cardStatus": "in_transit"
+  },
+  "people": {
+    "alice": {
+      "id": "alice",
+      "name": "Alice Dupont",
+      "role": "Chef sortant"
+    },
+    "bob": {
+      "id": "bob",
+      "name": "Bob Martin",
+      "role": "Chef désigné"
+    }
+  },
+  "handover": {
+    "status": "completed",
+    "outgoingVerified": true,
+    "incomingVerified": true,
+    "designatedChiefId": "bob"
+  },
+  "timeline": [
+    {
+      "year": 2022,
+      "chiefName": "Jean Dubois",
+      "status": "past"
+    },
+    {
+      "year": 2023,
+      "chiefName": "Alice Dupont",
+      "status": "past"
+    },
+    {
+      "year": 2024,
+      "chiefName": "Bob Martin",
+      "status": "current"
+    }
+  ],
+  "monthly": [
+    {
+      "month": "Jan",
+      "in": 420,
+      "out": 180
+    },
+    {
+      "month": "Fév",
+      "in": 380,
+      "out": 210
+    },
+    {
+      "month": "Mar",
+      "in": 510,
+      "out": 390
+    },
+    {
+      "month": "Avr",
+      "in": 290,
+      "out": 140
+    },
+    {
+      "month": "Mai",
+      "in": 640,
+      "out": 520
+    },
+    {
+      "month": "Juin",
+      "in": 450,
+      "out": 310
+    },
+    {
+      "month": "Juil",
+      "in": 200,
+      "out": 890
+    },
+    {
+      "month": "Aoû",
+      "in": 180,
+      "out": 760
+    },
+    {
+      "month": "Sep",
+      "in": 720,
+      "out": 240
+    },
+    {
+      "month": "Oct",
+      "in": 410,
+      "out": 190
+    },
+    {
+      "month": "Nov",
+      "in": 390,
+      "out": 160
+    },
+    {
+      "month": "Déc",
+      "in": 880,
+      "out": 430
+    }
+  ],
+  "transactions": [
+    {
+      "date": "2024-09-12",
+      "label": "Cotisations septembre",
+      "amount": 720
+    },
+    {
+      "date": "2024-08-18",
+      "label": "Camp d'été — location",
+      "amount": -760
+    },
+    {
+      "date": "2024-07-04",
+      "label": "Matériel tentes",
+      "amount": -890
+    },
+    {
+      "date": "2024-05-21",
+      "label": "Sponsoring fête locale",
+      "amount": 640
+    },
+    {
+      "date": "2024-03-09",
+      "label": "Assurances groupe",
+      "amount": -390
+    }
+  ]
+}
