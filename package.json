@@ -1,0 +1,8 @@
+{
+  "name": "hackathonkbc",
+  "private": true,
+  "workspaces": [
+    "backend",
+    "frontend"
+  ]
+}
