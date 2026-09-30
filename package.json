@@ -4,5 +4,8 @@
   "workspaces": [
     "backend",
     "frontend"
-  ]
+  ],
+  "overrides": {
+    "raw-body": "4.0.0"
+  }
 }
